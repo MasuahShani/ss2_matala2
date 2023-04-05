@@ -28,7 +28,7 @@ public:
     int stacksize(){return 1;}
     int cardesTaken(){return 1;}
     int getNumCard();
-    int addWin(card);// and to the cardsTaken
+    int addWin(int);
     int gatWinings();
     string getName();
     string cardToString();
